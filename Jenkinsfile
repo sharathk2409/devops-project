@@ -6,5 +6,10 @@ pipeline{
                 sh 'echo "Hello for scm job!!!"'
             }
         }
+        stage('Hello Jenkins'){
+            steps{
+                sh 'echo "Hello for jenkins!!!"'
+            }
+        }
     }
 }
