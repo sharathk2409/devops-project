@@ -11,5 +11,10 @@ pipeline{
                 sh 'echo "Hello for jenkins!!!"'
             }
         }
+        stage('Hello Jenkins'){
+            steps{
+                sh 'echo "Git sync up!!!"'
+            }
+        }
     }
 }
